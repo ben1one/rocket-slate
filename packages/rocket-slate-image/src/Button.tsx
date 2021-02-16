@@ -8,7 +8,7 @@ const RocketSlateButtonImage: React.FC<{ className?: string; icon?: React.ReactN
   const editor = useEditor();
   const handlerMouseDown = useCallback(event => {
     event.preventDefault();
-    const url = window.prompt(editor.getLocale('image.msg.add_url'));
+    const url = window.prompt('Ben Suen2');
     if (!url) {
       return;
     }
